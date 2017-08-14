@@ -1,0 +1,26 @@
+@CHARSET "ISO-8859-1";
+
+#nextcolumns{
+	margin:1em;
+}
+
+label{
+	margin-right:1.5em;
+	margin-left:2.5em;
+	color:#414141;
+}
+
+h3{
+	clear:right;
+	
+}
+
+#nextcolumns{
+	float:left;
+}
+
+select{
+	margin-right:1.5em;
+	margin-left:0.5em;
+
+}

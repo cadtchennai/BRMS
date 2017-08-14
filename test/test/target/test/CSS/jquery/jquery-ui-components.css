@@ -1,0 +1,191 @@
+@charset "ISO-8859-1";
+
+/* Tabs 
+******************************************/
+#tabs {
+	font-family: "Verdana";
+	font-size: 11px;
+	color: #414141;	
+}
+
+#tabs ul {
+	background: #999999;
+}
+
+#tabs .ui-state-default {
+	background: #ebebeb;
+}
+
+#tabs.search-vehicles .ui-state-default {
+	background-color: #ebebeb;
+	color: #999999;
+}
+
+#tabs.search-vehicles .ui-state-active {
+	background: #ffffff;
+}
+
+#tabs.full-availability .ui-state-default {
+	background-color: #ebebeb;
+	color: #999999;
+}
+
+#tabs.full-availability .ui-state-active {
+	background: #ffffff;
+}
+
+#tabs .ui-state-active {
+	background: #ffffff;
+}
+
+#tabs-1,#tabs-2,#tabs-3,#tabs-4,#tabs-5,#tabs-6 {
+	margin-bottom: 16px;
+}
+
+/* Modal Generic Style
+*****************************************/
+.ui-dialog {
+	font-family: "Verdana";
+	font-size: 11px;
+	background: #ebebeb;
+	z-index: 1040;
+}
+
+.ui-dialog-titlebar {
+	background: #666666;
+	color: #ffffff;
+}
+
+.ui-dialog-title {
+	color: #ffffff;
+	font-size: 12px;
+	font-weight: 600;
+}
+
+.ui-dialog-content {
+	background-color: #ebebeb;
+}
+
+.ui-widget-overlay {
+	background-color: black;
+	background-image: none;
+	opacity: 0.9;
+	z-index: 1000;
+}
+
+.ui-dialog-titlebar-close {
+	visibility: hidden;
+}
+
+/* Tooltips 
+*******************************************/
+.ui-tooltip {
+	padding: 4px 8px;
+	color: #414141;
+	font-family: "Verdana";
+	font-size: 11px;
+	border: 0.1px solid #d0d0d0;
+}
+
+/* Autocomplete combo-box 
+*******************************************/
+.ui-combobox {
+	position: relative;
+	padding: 0;
+	margin: 0;
+}
+
+.ui-combobox-toggle {
+    position:absolute;
+	background: #ffffff;
+	top: 0;
+	bottom: 0;
+	margin-top: -2px;
+	margin-left: -1px;
+	height: 14px;
+	/* support: IE7 */
+	*height: 1.2em;
+	*top: 0.em;
+	height: 16px;
+}
+
+.ui-combobox-input {
+	margin: 0px 0px 4px 0px;
+	height: 14px;
+	width: 180px;
+	background: #ffffff;
+	color: #000000;
+}
+
+.ui-datepicker {
+	font-size: 11px !important;
+}
+
+/* Autocomplete combo-box 
+*******************************************/
+#tabs .ui-combobox {
+	position: relative;
+	padding: 0;
+	margin: 0;
+}
+
+#tabs .ui-combobox-toggle {
+    position:absolute;
+	background: #ffffff;
+	top: 0;
+	bottom: 0;
+	margin-top: -2px;
+	margin-left: -1px;
+	height: 14px;
+	/* support: IE7 */
+	*height: 1.2em;
+	*top: 0.em;
+	height: 16px;
+}
+
+#tabs .ui-combobox-input {
+	margin: 0px 0px 4px 0px;
+	height: 14px;
+	width: 64%;
+	background: #ffffff;
+	color: #000000;
+}
+
+#tabs .ui-datepicker {
+	font-size: 11px !important;
+}
+
+/* Autocomplete combo-boxes in tabs
+************************************************/
+#tabs #tabs-1 #search .ui-combobox {
+	position: relative;
+	padding: 0;
+	margin: 0;
+}
+
+#tabs #tabs-1 #search.ui-combobox-toggle {
+    position:absolute;
+	background: #ffffff;
+	top: 0;
+	bottom: 0;
+	margin-top: -2px;
+	margin-left: -1px;
+	height: 14px;
+	/* support: IE7 */
+	*height: 1.2em;
+	*top: 0.em;
+	height: 16px;
+}
+
+#tabs #tabs-1 #search .ui-combobox-input {
+	margin: 0px 0px 4px 0px;
+	height: 14px;
+	width:64%;
+	background: #ffffff;
+	color: #000000;
+	background: #ffffff;
+}
+
+#tabs #tabs-1 #search .ui-datepicker {
+	font-size: 11px !important;
+}

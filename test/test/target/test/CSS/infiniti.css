@@ -1,0 +1,212 @@
+@charset "ISO-8859-1";
+
+body {
+	color:#414141;
+}
+
+/* Headings */
+h1 {
+	color:#000000;
+}
+
+h2 {
+	color:#414141;
+}
+
+h3 {
+	color:#414141;
+}
+
+a:link, a:visited  {
+	color: #414141;
+}
+
+/* Logo and page titles
+****************************************/
+
+.titleContainer {
+    top: 25px;
+}
+
+.logo {
+	width: 158px;
+	height: 103px;
+	display: inline-block;
+	float: left;
+	background-repeat: no-repeat;
+	background-image:url('../IMAGES/infinitiblack.jpg');
+	background-size: 158px 103px;
+}
+
+
+/* Global Navigation 
+**************************/
+#globalnav li a{ 
+	background: #ffffff;
+	color:#666666;	
+}
+
+#globalnav li :hover{ 
+	color:#000000;
+}
+
+#globalnav a:link, #globalnav a:visited {
+	text-decoration: none;
+}
+
+
+/* Buttons */
+/***********/
+input[type=button] {
+	border: none;
+	background: #581C6E;
+	color: #ffffff;	
+}
+
+input[type=button]:hover {
+	background: #666666;
+	color: #ffffff;
+}
+
+input[type=submit] {
+	border: none;
+	background: #581C6E;
+	color: #ffffff;
+	
+}
+
+input[type=submit]:hover {
+	background: #666666;
+	color: #ffffff;
+}
+
+input[type=submit][disabled=disabled],
+button[disabled=disabled] {
+	background: #999999;
+	color: #D0D0D0;
+}
+
+input[type=submit][disabled=disabled]:hover,
+button[disabled=disabled]:hover {
+	background: #999999;
+	color: #D0D0D0;
+	cursor: default;
+}
+
+input[type=text], input[type=password] {
+	border: 1px solid #d0d0d0;
+}
+
+input[type=text].highlightBkgrd {
+	background-color: #FFB2B2 !important;
+	border: 1px solid #C51733 !important;
+}
+
+/* Read only inputs */
+/********************/
+input[type=text].readOnly, input[type="text"].disabled {
+	background-color: #ebebeb;
+}
+
+
+
+.linkAsButton {
+    text-decoration: none;
+    background: #581C6E;
+    color: #ffffff;
+}
+
+.linkAsPrimaryButton {
+    background: #581C6E !important;	
+}
+
+a.linkAsButton:link, a.linkAsButton:visited  {
+	color: #ffffff;
+}
+
+a.linkAsButton:hover {
+    background: #666666;
+	color: #ffffff;
+}
+
+/* CRUD section styles 
+***************************/
+.crudWrapper {
+}
+.crudSectionHeader {
+	background-color: #666666;
+    color: #FFFFFF;
+}
+.crudSectionBody {
+	background-color: #FAF8F8;;
+}
+
+
+
+/* Error and info text message */
+/*******************************/
+.errorText {
+	color: #C51733;
+}
+
+.globalErrorText {
+	color: #C51733;
+	background-repeat: no-repeat;
+	background-image:url('../images/error.png');
+}
+
+.infoText {
+	color: #7ac17f
+}
+
+.globalInfoText {
+	color: #7ac17f;
+	background-repeat: no-repeat;
+	background-image:url('../images/info.png');
+}
+
+.successText {
+	color: #7ac17f
+}
+
+.globalSuccessText {
+	color: #7ac17f;
+	background-repeat: no-repeat;
+	background-image:url('../images/greensave.png');
+}
+
+
+/* Basic form layout */
+/*********************/
+.basicForm label {
+	color: #414141;
+}
+
+.basicForm .sectionHeader {
+	background-color: #666666;
+    color: #ffffff;
+}
+
+.basicForm .shortSectionHeader {
+	background-color: #666666;
+    color: #ffffff;
+}
+
+#contextMenuDialog .menuItemDisabled {
+	color :lightgray;
+}
+
+tr.selected {
+	background-color:#D0D0D0 !important;
+}
+
+.bcrumbContainer li a.page, div.datatablesResultsTitle, div.datatablesResultsTitleWithoutSearch, .dataTables_info {
+	color:#581C6E;
+}
+
+
+
+
+
+
+	

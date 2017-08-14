@@ -1,0 +1,2 @@
+// Tabs 
+$(function() { $( "#tabs" ).tabs();  });  

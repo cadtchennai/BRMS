@@ -1,0 +1,166 @@
+@charset "ISO-8859-1";
+
+#dialog-modal-defleet-order .ui-comboxbox,
+#dialog-modal-update-customer-details .ui-combobox,
+#dialog-modal-recievedvtr .ui-combobox,
+#dialog-modal-updatevtr .ui-combobox,
+#dialog-modal-createvtr .ui-combobox,
+#dialog-modal-retail-order .ui-combobox
+	{
+	position: relative;
+	padding: 0;
+	margin: 0;
+}
+
+#dialog-modal-defleet-order .ui-combobox-toggle,
+#dialog-modal-update-customer-details .ui-combobox-toggle,
+#dialog-modal-recievedvtr .ui-combobox-toggle,
+#dialog-modal-updatevtr .ui-combobox-toggle,
+#dialog-modal-createvtr .ui-combobox-toggle,
+#dialog-modal-retail-order .ui-combobox-toggle {
+	position:absolute;
+	background: #ffffff;
+	top: 0;
+	bottom: 0;
+	margin-top: -2px;
+	margin-left: -1px;
+	height: 14px;
+	/* support: IE7 */
+	*height: 1.2em;
+	*top: 0.em;
+	height: 16px;
+}
+
+#dialog-modal-defleet-order .ui-combobox-input,
+#dialog-modal-update-customer-details .ui-combobox-input,
+#dialog-modal-recievedvtr .ui-combobox-input,
+#dialog-modal-updatevtr .ui-combobox-input,
+#dialog-modal-createvtr .ui-combobox-input,
+#dialog-modal-retail-order .ui-combobox-input {
+	margin: 0px 0px 0px 0px;
+	height: 14px;
+	background: #ffffff;
+	color: #000000;
+	width: 83%;
+}
+
+#dialog-modal-defleet-order .ui-datepicker,
+#dialog-modal-recievedvtr .ui-datepicker,
+#dialog-modal-updatevtr .ui-datepicker,
+#dialog-modal-createvtr .ui-datepicker,
+#dialog-modal-retail-order .ui-datepicker {
+	font-size: 11px !important;
+}
+
+#search .ui-combobox,
+#search-tabs .ui-combobox {
+	position: relative;
+	padding: 0;
+	margin: 0;
+}
+
+#search .ui-combobox-toggle,
+#search-tabs .ui-combobox-toggle {
+	position:absolute;
+	background: #ffffff;
+	top: 0;
+	bottom: 0;
+	margin-top: -2px;
+	margin-left: -1px;
+	height: 14px;
+	/* support: IE7 */
+	*height: 1.2em;
+	*top: 0.em;
+	height: 16px;
+}
+
+#search .ui-combobox-input,#search-tabs .ui-combobox-input {
+	margin: 0px 0px 4px 0px;
+	height: 14px;
+	background: #ffffff;
+	color: #000000;
+	width: 64%;
+}
+
+#search .ui-datepicker {
+	font-size: 11px !important;
+}
+
+#tabs.full-availability .ui-combobox,
+#tabs.search-vehicles .ui-combobox
+	{
+	position: relative;
+	padding: 0;
+	margin: 0;
+}
+
+#tabs.full-availability .ui-combobox-toggle,
+#tabs.search-vehicles .ui-combobox-toggle
+	{
+     position:absolute;
+	background: #ffffff !important;
+	top: 0;
+	bottom: 0;
+	margin-top: -2px;
+	margin-left: -1px;
+	height: 14px;
+	margin-right: 32px;
+	/* support: IE7 */
+	*height: 1.2em;
+	*top: 0.em;
+	height: 16px;
+}
+
+#tabs.full-availability .ui-combobox-input,
+#tabs.search-vehicles .ui-combobox-input
+	{
+	margin: 1px 0px 0px 0px;
+	height: 14px;
+	width: 80%;
+	background: #ffffff !important;
+	color: #000000 !important;
+}
+
+#tabs.full-availability .ui-datepicker 
+#tabs.search-vehicles .ui-datepicker {
+	font-size: 11px !important;
+}
+
+.ui-datepicker-trigger {
+	position: relative;
+	top: 2px;
+	left: 4px;
+	height: 15px;
+	width: 15px;
+}
+
+#tabs.search-vehicles #search-tabs .ui-combobox,
+#search-tabs .ui-combobox {
+	position: relative;
+	padding: 0;
+	margin: 0;
+}
+
+#tabs.search-vehicles #search-tabs .ui-combobox-toggle,
+#search-tabs .ui-combobox-toggle {
+    position:absolute;
+	background: #ffffff;
+	top: 0;
+	bottom: 0;
+	margin-top: -2px;
+	margin-left: -1px;
+	height: 14px;
+	/* support: IE7 */
+	*height: 1.2em;
+	*top: 0.em;
+	height: 16px;
+}
+
+#tabs.search-vehicles #search-tabs .ui-combobox-input,
+#search-tabs .ui-combobox-input {
+	margin: 0px 0px 4px 0px;
+	height: 14px;
+	background: #ffffff;
+	color: #000000;
+	width: 64%;
+}

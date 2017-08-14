@@ -1,0 +1,693 @@
+@charset "ISO-8859-1";
+
+body {
+	font-family: "Verdana";
+	font-size: 11px;
+	color: #414141;
+}
+/* Application Titles 
+********************************/
+h1 {
+	margin: 0;
+	font-size: 18px;
+}
+
+h2 {
+	margin: 0;
+	font-size: 16px;
+}
+
+/* Section Titles e.g Search/Results
+****************************************/
+h3 {
+	padding: 0px 0px 0px 0px;
+	margin: 0px;
+	font-size: 12px;
+}
+
+/* Alternative headers e.g sections in modal
+**********************************************/
+h4 {
+	margin: 4px 0px 0px 0px;
+	font-size: 12px;
+	font-weight: 500;
+}
+
+/* Page Containers 
+****************************/
+
+#containerwrapper {
+	width: 960px;
+	height: auto;
+	margin: 0 auto;
+	margin-top:-8px;
+}
+
+/* Global Navigation Containers 
+*************************************/
+#global {
+	width: auto;
+	height: 18px;
+	padding: 0;
+}
+
+#globalnav {
+	width: 365px;
+	margin-top: 2px;
+	float: right;
+	list-style: none;
+}
+
+#globalnav li a {
+	width: auto;
+	height: 18px;
+	padding-right: 4px;
+	padding-left: 4px;
+	float: left;
+	display: block;
+	text-align: center;
+	text-decoration: none;
+	font-size: 11px;
+}
+
+/* Global Nav Links
+*********************************/
+.user {
+	padding-top: 5px;
+}
+
+.help {
+	border: none;
+}
+
+#globalnav li .dealerselect{
+	float:left;
+}
+/* Application Banner 
+********************************************************/
+#banner {
+	width: auto;
+	height: 64px;
+	padding: 16px 0px 0px 8px;
+	margin-bottom: 8px;
+	font-weight: 600;
+	border-collapse: collapse;
+}
+
+/* Buttons and Inputs Generic Styles (further styled through classes
+***********************************************************************/
+input[type=button] {
+	border: none;
+	font-family: "Verdana";
+	font-size: 11px;
+	padding: 4px 8px;
+	float: right;
+}
+#create-user{
+	border: none;
+	font-family: "Verdana";
+	font-size: 11px;
+	padding: 4px 8px;
+	float: right;
+    background-color: #c51733 !important;
+	color: #ffffff;	
+}
+#delete-user{
+	border: none;
+	font-family: "Verdana";
+	font-size: 11px;
+    padding: 4px 4px;
+	float: right;
+	background-color: #999999 !important;
+	color: #FFFFFF;
+	margin-left: 12px;
+}
+#create-workflow {
+	border: none;
+	font-family: "Verdana";
+	font-size: 11px;
+	padding: 4px 8px,8px,8px;
+	float: right;
+	background-color: #c51733 !important;
+	color: #ffffff; 
+}
+input[type=button]:hover {
+	cursor: pointer;
+}
+
+label {
+	padding: 2px 8px 0px 0px;
+	float: left;
+	text-align: left;
+
+}
+
+.pref{
+	padding-top:2px;
+	border:none;
+}
+
+.ui-datepicker-trigger {
+	position: relative;
+	top: 2px;
+	left: 4px;
+	height: 15px;
+	width: 15px;
+}
+
+/* Simple scalable breadcrumb by Veerle Pieters
+****************************************************/
+#bcrumbs{
+	display:inline-block;
+}
+
+.home {
+	float: left;
+	border: none;
+	line-height: 2.5em;
+	margin-right: 8px;
+}
+
+#bcrumbs ul,#bcrumbs li {
+	display: inline;
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+
+#crumbs {
+	height: 2.3em;
+}
+
+#crumbs li {
+	float: left;
+	line-height: 2.3em;
+	padding-left: 0px;
+}
+
+#crumbs li a {
+	display: block;
+	padding: 0 8px 0 0;
+}
+
+#crumbs li a.page {
+	font-weight: 800;
+}
+
+#crumbs li a:link,#crumbs li a:visited {
+	text-decoration: none;
+}
+
+/* Search Bar
+***************************************************************/
+#searchbar {
+	padding: 1px 0px 0px 4px;
+	width: 956px;
+	height: 20px;
+	margin-top: 8px;
+}
+
+#searchbar ul,#searchbar li {
+	text-decoration: none;
+	display: inline;
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+
+#searchbar li {
+	float: left;
+	line-height: 18px;
+	padding-left: .75em;
+}
+
+#searchbar li a {
+	text-decoration: none;
+	font-size: 12px;
+	font-weight: 400 !important;
+}
+
+/* Search Block
+*****************************************************/
+#search {
+	padding: 4px 0px 0px 0px;
+	width: 960px;
+	margin-bottom: 8px;
+}
+
+.hide,.show {
+	vertical-align: bottom;
+	border: none;
+	float: left;
+}
+
+#search .columns {
+	float: left;
+	width: 314px;
+	display: block;
+}
+
+#search .option1 {
+	float: left;
+	margin: 0px 8px 4px 8px;
+}
+
+#search .option2 {
+	float: left;
+	margin: 0px 8px 0px 8px;
+}
+
+#search .option3 {
+	padding-top: 4px;
+	float: left;
+	margin: 0px 8px 0px 8px;
+	float: left;
+}
+
+#search .option4 {
+	padding-top: 4px;
+	float: left;
+	margin: 0px 8px 0px 8px;
+	float: left;
+}
+
+#search .option5 {
+	float: left;
+	margin: 0px 8px 0px 8px;
+	padding-top: 4px;
+}
+
+#search .option6 {
+	float: left;
+	margin: 0px 8px 4px 8px;
+	padding-top: 4px;
+}
+
+#search .buttoncolumn {
+	float: right;
+	width: 314px;
+	display: block;
+}
+
+/* Search Bar in Tabs 
+**********************************************************/
+#searchbar-tabs {
+	padding: 1px 0px 0px 4px;
+	width: 100%;
+	height: 25px;
+	margin-top: 4px;
+}
+
+#searchbar-tabs ul,
+#searchbar-tabs li {
+	text-decoration: none;
+	display: inline;
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	display: inline;
+}
+
+#searchbar-tabs {
+	height: 2em;
+}
+
+#searchbar-tabs li {
+	float: left;
+	line-height: 2em;
+	padding-left: .75em;
+}
+
+#searchbar-tabs li a {
+	text-decoration: none;
+	font-size: 12px;
+	font-weight: 400;
+	font-weight: 400 !important;
+}
+
+/* Search Block in Tabs 
+***************************************************/
+#search-tabs {
+	padding: 4px 0px 0px 0px;
+	width: 100.5%;
+	margin-bottom: 8px;
+}
+
+.hide {
+	height: 18px;
+	width: 18px;
+	vertical-align: bottom;
+	border: none;
+	float: left;
+}
+
+.show {
+
+	vertical-align: bottom;
+	border: none;
+	float: left;
+}
+
+#search-tabs .option1 {
+	float: left;
+	margin: 0px 8px 4px 8px;
+}
+
+#search-tabs .option2 {
+	float: left;
+	margin: 0px 8px 0px 8px;
+}
+
+#search-tabs .option3 {
+	padding-top: 4px;
+	float: left;
+	margin: 0px 8px 0px 8px;
+	float: left;
+}
+
+#search-tabs .option4 {
+	padding-top: 4px;
+	float: left;
+	margin: 0px 8px 0px 8px;
+	float: left;
+}
+
+#search-tabs .option5 {
+	float: left;
+	margin: 0px 8px 0px 8px;
+	padding-top: 4px;
+}
+
+#search-tabs .option6 {
+	float: left;
+	margin: 0px 8px 4px 8px;
+	padding-top: 4px;
+}
+
+#search-tabs .option7 {
+	float: left;
+	margin: 0px 8px 0px 8px;
+	padding-top: 4px;
+}
+
+#search-tabs .option8 {
+	float: left;
+	margin: 0px 8px 0px 8px;
+
+}
+
+#search-tabs .columns {
+	float: left;
+	width: 300px;
+	display: block;
+}
+
+#search-tabs .buttoncolumn {
+	float: right;
+	width: 300px;
+	display: block;
+}
+
+/* Heights of Search Section per screen 
+*************************************************/
+.orders-to-retail {
+	height: 204px;
+}
+
+.d2d-other-dealer-stock {
+	height: 152px;
+}
+
+.d2d-vtr {
+	height: 188px;
+}
+
+.order-enquiry {
+	height: 204px;
+}
+
+.changed-del-date {
+	height: 204px;
+}
+
+.canc-held-orders {
+	height: 204px;
+}
+
+.pot-early-del {
+	height: 156px;
+}
+
+.defleet {
+	height: 204px;
+}
+
+.new-search {
+	height: 125px;
+}
+/* Inputs/Labels in Search Block 
+***************************************************/
+.columns label {
+	display: block;
+	width: 68px;
+}
+
+.input {
+	width: 180px;
+	margin-bottom: 4px;
+	
+}
+
+.input-tabs {
+	width: 216px;
+	margin-bottom: 4px;
+}
+
+.dateinput {
+	width: 75px;
+	margin-bottom: 4px;
+}
+
+
+/* Message Bar (Info/Mainframe Error Message)
+**************************************************************************/
+.messagebar {
+	height: 32px;
+	line-height: 16px;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+/* Modal Header Section
+***********************************************/
+#modal-header {
+	width: 100%;
+}
+
+.header-desc {
+	padding-left: 4px;
+}
+
+.header-data {
+	padding-left: 4px;
+}
+
+/* Modal Table - Main Content 
+**********************************************************/
+#modal-table {
+	width: 100%;
+}
+
+#modal-table tr td {
+	width: 25%;
+	line-height: 16px;
+}
+
+#modal-table tr td.hide {
+	padding: 0;
+}
+
+/* Inputs/Labels Style */
+.inputwidth {
+	width: 98%;
+}
+
+.addressinput {
+	height: 80px;
+	width: 98%;
+}
+
+.button {
+	margin-left: 8px;
+	font-size: 11px !important;
+}
+
+.selectbox {
+	padding: 8px 0px 8px 0px;
+	width: 100%;
+}
+
+/* Order Screens Content (search veh built & order, full avail search, physical supply search)
+*************************************************************************************************/
+.table {
+	width: 100%;
+}
+
+.table tr td {
+	width: 25%;
+	line-height: 16px;
+}
+
+
+
+.table1 {
+	width: 100%;
+}
+
+.table1 tr td {
+	line-height: 16px;
+}
+
+.incentives {
+	width: 100%;
+}
+
+.incentives tr td {
+	line-height: 16px;
+	padding: 1px 4px 1px 4px;
+}
+
+.matrix {
+	width: 100%;
+	text-align: center;
+}
+
+.matrix tr td {
+	line-height: 16px;
+}
+
+.table tr td.hidden,
+.table1 tr td.hidden {
+	padding: 0;
+	height: 16px;
+}
+
+/* Main Table Classes Modal's & Ordering
+************************************************************************/
+.table-header {
+	padding-left: 4px;
+}
+
+.table-desc {
+	padding-left: 4px;
+}
+
+#modal-table tr td.table-desc {
+	padding-left: 4px;
+}
+
+.table-data {
+	padding-left: 4px;
+}
+
+/* Additional Table Classes for specific width
+********************************************************************/
+.num {
+	width: 50px;
+}
+
+.text-input-width {
+	width: 92%;
+}
+
+.lvc {
+	width: 30% !important;
+}
+
+.date {
+	width: 12% !important;
+}
+
+.display-incentives {
+	margin-left: 20px;
+}
+
+.success {
+	margin-left: 16px;
+}
+
+#Y {
+	background: none;
+	text-decoration: none;
+	border: none;
+	font-family: "Verdana";
+	font-size: 11px;
+	padding: 0px;
+	float: none;
+	text-decoration: none;
+	float: none;
+}
+
+/* Buttons to Navigate Through Tabs (on ordering screens)
+***********************************************************/
+.nexttab,
+.prevtab {
+	text-decoration: none;
+	border: none;
+	font-family: "Verdana";
+	font-size: 11px;
+	padding: 4px 8px;
+	float: right;
+}
+
+.prevtab {
+	margin-right: 8px;
+}
+
+/* Data Table layout see datatable.css
+***********************************************************/
+#buildtoorder{
+	float:left;
+	background-color:#999999;
+	padding:3px 8px 3px 8px;
+	width:125px;
+
+}
+
+#freestock{
+	float:left;
+	background-color:#c51733;
+	padding:3px 8px 3px 8px;
+	width:125px;
+	
+}
+
+.tablesearch {
+	width:928px;
+}
+.tablesearch tr td {
+	line-height: 16px;
+	
+}
+.table-descss {
+	padding: 2px 8px 2px 8px;
+    background:#f4f4f4;
+}
+
+#similarfreestock, #displayunit, #modifyunit, #nexttab{
+	margin-left:8px;
+}
+
+#search-tabs .buttoncol {
+	float: right;
+	width: 600px;
+	display: block;
+}
+
+.info-message{
+line-height: 16px;
+Font-Color: #44973b;
+Font-Size: 12px;
+Font-Weight: Bold; 
+}
+

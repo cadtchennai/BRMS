@@ -1,0 +1,98 @@
+@CHARSET "ISO-8859-1";
+
+/* the styles for the VET and Vehicle engine enquiry screens */
+
+
+#vehicleenquiry-container {
+	padding: 4px 0px 0px 0px;
+	width: 960px;
+	margin-bottom: 8px;
+}
+
+.vehicleenquiry table{
+	margin-bottom: 8px;
+	margin-top: 10px;
+}
+
+.vehicleenquiry tr td {
+	line-height: 16px;
+
+}
+
+.vehicleenquiry .vehicle-header {
+	background-color: #666666;
+	font-color: #FFFFFF;
+	color: #ffffff;
+	padding-left: 15px;
+}
+
+.vehicleenquiry .vehicle-desc {
+	padding-left: 4px;
+	background-color: #D0D0D0;
+	Font-Color: #414141;
+	
+}
+
+.vehicleenquiry .vehicle-data {
+	
+	background-color: #FAF8F8;
+	Font-Color: #414141;
+	padding-Left: 4px;
+}
+
+.vehicleenquiry .vehicle-data-ok {
+	padding-left: 4px;
+	back-ground-color:green;
+	color: #44973b;
+    font-Size: 12px;
+    font-Weight: Bold ;
+}
+.messageok{
+	color: #44973b;
+    font-Size: 12px;
+    font-Weight: Bold ;
+}
+
+
+/* Inputs/Labels Style */
+
+.con_source_description {
+	height: 50%;
+}
+
+
+.vehicleenquiry tr td .description_txt_input{
+	height:60px;
+}
+
+.vehicleenquiry div .option1 {
+	float: left;
+	margin: 10px 8px 4px 10px;
+}
+
+#vetbutton {
+	border: none;
+	font-family: "Verdana";
+	font-size: 11px;
+	padding: 4px 8px;
+	float: right;
+	background-color: #c51733 !important;
+	color: #ffffff;
+	margin: 10px 5px;
+	margin-bottom:10px;
+}
+#achievements_button {
+	border: none;
+	font-family: "Verdana";
+	font-size: 11px;
+	padding: 4px 8px;
+	float: right;
+	background-color: #c51733 !important;
+	color: #ffffff;
+	margin: 10px 5px;
+	margin-bottom:10px;
+}
+	
+
+
+

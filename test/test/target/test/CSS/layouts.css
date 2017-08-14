@@ -1,0 +1,1107 @@
+@CHARSET "ISO-8859-1";
+
+/* Heights of Input Sections
+*************************************************/
+.create-crcr-input {
+	height: 250px;
+	width: 400px;
+}
+
+/* the Heights of the static data Section */
+.static-data-tabs {
+	height: 200px;
+	width: 400px;
+}
+
+.assign-responsibility-input {
+	height: 150px;
+	width: 400px;
+}
+
+/* Input Block
+*****************************************************/
+#createinput {
+	padding: 4px 0px 0px 0px;
+	width: 960px;
+	margin-bottom: 8px;
+}
+
+.hide,.show {
+
+	vertical-align: bottom;
+	border: none;
+	float: left;
+}
+
+#createinput .nextcolumns {
+	float: left;
+	width: 314px;
+	display: block;
+}
+
+#createinput .option1 {
+	float: left;
+	margin: 0px 8px 4px 8px;
+}
+
+#createinput .option2 {
+	float: left;
+	margin: 0px 8px 0px 8px;
+}
+
+#createinput .option3 {
+	float: left;
+	margin: 0px 8px 0px 8px;
+}
+
+.button-layout{
+
+	float: left;
+	width:400px;
+	
+	
+}
+
+#createinput .option4 {
+	float: left;
+	margin: 0px 8px 0px 8px;
+}
+
+#createinput .option5 {
+	width: 100%;
+	float: left;
+	margin: 40px 8px 0px 8px;
+}
+#createinput .option6 {
+	width: 100%;
+	float: left;
+	margin: 40px 8px 0px 8px;
+}
+
+}
+#createinput.buttonsubmitcrcr {
+	position: relative;
+	width: 314px;
+	display: block;
+}
+#createinput .verify_mf {
+	width: auto;
+	background-Color: #C51733;
+    color: #FFFFFF;
+
+}
+
+#createinput.buttontest {
+	position: relative;
+	width: 314px;
+	display: block;
+}
+
+input .borderless {
+border: none;
+}
+
+
+
+/* Inputs/Labels in Create Block 
+***************************************************/
+.nextcolumns label {
+	display: block;
+	width: 68px;
+}
+
+#longlabel {
+	display: block;
+	width: 150px;
+}
+
+#longlabel2 {
+	display: block;
+	width: 150px;
+}
+
+#longlabel3 {
+	display: block;
+	width: 190px;
+}
+
+.longlabelX {
+	display: block;
+	width: 190px;
+}
+.longlabelY {
+	display: block;
+	width: 100px;
+}
+
+.level1 {
+	font-style: italic
+}
+
+/*the Tabs in Static data */
+#staticdatatabs {
+	padding: 4px 0px 0px 0px;
+	width: 960px;
+	margin-bottom: 8px;
+}
+
+.hide,.show {
+
+	vertical-align: bottom;
+	border: none;
+	float: left;
+}
+
+/* DataTable 
+****************************************************/
+.dt_example h1 {
+	color: #C51733;
+}
+
+.dataTables_usage {
+	color: #C51733;
+}
+
+.dataTables_info {
+	color: #C51733;
+}
+
+table.display thead th {
+	background-color: #666666;
+	color: #ffffff;
+	font-weight: 400;
+}
+
+table.display tr.odd.gradeA {
+	background-color: #ebebeb;
+}
+
+table.display tr.even.gradeA {
+	background-color: #FFFFFF;
+}
+
+tr.odd {
+	background-color: #EBEBEB;
+}
+
+tr.even {
+	background-color: #FFFFFF;
+}
+
+table.display tr.even.row_selected td {
+	background-color: #D0D0D0;
+	color: #414141;
+}
+
+table.display tr.odd.row_selected td {
+	background-color: #D0D0D0;
+	color: #414141;
+}
+
+div.dataTables_paginate span.paginate_button {
+	background-color: #ffffff;
+	color: #414141;
+	border: 1px solid #d0d0d0;;
+}
+
+div.dataTables_paginate span.paginate_button:hover {
+	background-color: #d0d0d0;
+}
+
+div.dataTables_paginate span.paginate_active {
+	background-color: #666666;
+	color: #ffffff;
+	border: none;
+}
+
+/*Modal Static data Tables for input */
+/*************************************/
+#static-data-table-user {
+	width: 100%;
+}
+
+#static-data-table-user tr td {
+	width: 25%;
+	line-height: 16px;
+}
+
+#static-data-table-user tr td.hide {
+	padding: 0;
+}
+
+/* Inputs/Labels Style */
+.inputwidth {
+	width: 98%;
+}
+
+.addressinput {
+	height: 80px;
+	width: 98%;
+}
+
+.button {
+	margin-left: 8px;
+	font-size: 11px !important;
+}
+
+.selectbox {
+	padding: 8px 0px 8px 0px;
+	width: 100%;
+}
+
+/* Modal Header Section
+***********************************************/
+#user-header {
+	width: 100%;
+}
+
+#user-header tr td {
+	width: 100%;
+	line-height: 16px;
+}
+
+.header-desc {
+	padding: 0px 5px 0px 0px;
+	background-color: #414141;
+	color: #ffffff;
+}
+
+.header-data {
+	padding: 0px 5px 0px 0px;
+}
+
+.adduserbutton {
+	position: relative;
+	width: 314px;
+	display: block;
+}
+
+/**  Static Data >> Users maintenance >> styles for the create user dialog**/
+
+/* Modal Table - Main Content 
+**********************************************************/
+#add-user-table table {
+	width: 100%;
+}
+
+#add-user-table tr td {
+	width: 25%;
+	line-height: 16px;
+	font-color: #414141;
+	background-color: #D0DD0 !important;
+}
+
+.table-desc-lable {
+	Padding Left: 8px;
+	background-color: #D0D0D0;
+	color: #000000;
+	font-olor: #414141;
+}
+
+#add-user-table tr td.hide {
+	padding: 0;
+}
+
+/* Inputs/Labels Style */
+.tableinputwidth {
+	width: 98%;
+}
+
+/**Assign responsibility**/
+.longinput {
+	width: 200px;
+	margin-bottom: 4px;
+}
+
+/**  CRCR >> Assign responsibilities  >> tables for the list of users (workflow grades/tiers) **/
+#assign-responsibility-table table {
+	width: 100%;
+	border
+	=1;
+	cellspacing
+	=5;
+}
+
+#workflow-container {
+	padding: 4px 0px 0px 0px;
+	width: 960px;
+	margin-bottom: 8px;
+}
+
+
+.assign-header {
+	background-color: #666666;
+	font-color: #FFFFFF;
+	color: #ffffff;
+	padding-left: 15px;
+}
+
+.assign-desc {
+	padding-left: 4px;
+	background-color: #D0D0D0;
+	Font-Color: #414141;
+	Padding-Left: 8px;
+}
+
+#assign-responsibility-table  tr td .table-desc {
+	padding-left: 4px;
+}
+
+.assign-data {
+	padding-left: 4px;
+}
+
+.user_example {
+	padding: 4px 0px 0px 0px;
+	width: 960px;
+}
+
+.user_example a img {
+	border: none;
+}
+
+.user_example h1 {
+	color: #C51733;
+}
+
+.user_example h4 {
+	margin: 40px 0px 0px 0px;
+}
+
+.image-workflow-table {
+	padding-left: 5px;
+	border: none;
+}
+
+/**workflow buttons**/
+#add-supervisor {
+	border: none;
+	font-family: "Verdana";
+	font-size: 11px;
+	padding: 4px 8px;
+	float: left;
+	background-color: #c51733 !important;
+	color: #ffffff;
+	margin: 10px 5px;
+}
+
+#delete-supervisor {
+	border: none;
+	font-family: "Verdana";
+	font-size: 11px;
+	padding: 4px 8px;
+	float: left;
+	background-color: #c51733 !important;
+	color: #ffffff;
+	margin: 10px 5px;
+}
+
+#add-senior {
+	border: none;
+	font-family: "Verdana";
+	font-size: 11px;
+	padding: 4px 20px;
+	float: left;
+	background-color: #c51733 !important;
+	color: #ffffff;
+	margin: 10px 5px;
+}
+
+#delete-senior {
+	border: none;
+	font-family: "Verdana";
+	font-size: 11px;
+	padding: 4px 20px;
+	float: left;
+	background-color: #c51733 !important;
+	color: #ffffff;
+	margin: 10px 5px;
+}
+
+#save-workflow {
+	border: none;
+	font-family: "Verdana";
+	font-size: 11px;
+	padding: 4px 25px;
+	float: left;
+	background-color: #c51733 !important;
+	color: #ffffff;
+	margin: 20px 5px;
+}
+
+/*  the Countermeasure evaluation*/
+#evaluate-container {
+	padding: 4px 0px 0px 0px;
+	width: 960px;
+	margin-bottom: 8px;
+}
+
+#addcountermeasure table {
+	
+}
+
+#addcountermeasure tr td {
+	line-height: 16px;
+}
+
+#addcountermeasure .countermeasure-header {
+	background-color: #666666;
+	font-color: #FFFFFF;
+	color: #ffffff;
+	padding-left: 15px;
+}
+
+#addcountermeasure .countermeasure-desc {
+	padding-left: 4px;
+	background-color: #D0D0D0;
+	Font-Color: #414141;
+	Padding-Left: 8px;
+}
+
+#addcountermeasure .countermeasure-data {
+	padding-left: 4px;
+	background-color: #FAF8F8;
+	Font-Color: #414141;
+	Padding-Left: 8px;
+}
+
+#addcountermeasure .countermeasure-data-ok {
+	padding-left: 4px;
+	back-ground-color: green;
+	color: #44973b;
+	font-Size: 12px;
+	font-Weight: Bold;
+}
+#addcountermeasure .countermeasure-data-ng {
+	padding-left: 4px;
+	back-ground-color: red;
+	color: #44973b;
+	font-Size: 12px;
+	font-Weight: Bold;
+}
+.messageok {
+	color: #44973b;
+	font-Size: 12px;
+	font-Weight: Bold;
+}
+
+/* Inputs/Labels Style */
+.tableinput {
+	width: 50%;
+}
+
+.con_source_description {
+	height: 50%;
+}
+
+#addcountermeasure tr td .description_txt_input {
+	height: 60px;
+}
+
+#evaluate-container .option1 {
+	float: left;
+	margin: 10px 8px 4px 0px;
+}
+
+#save-counturmeasure {
+	border: none;
+	font-family: "Verdana";
+	font-size: 11px;
+	padding: 4px 8px;
+	float: left;
+	background-color: #c51733 !important;
+	color: #ffffff;
+	margin: 30px 5px;
+}
+
+/***** TAB 2 Permanent Countermeasure */
+#evaluate-container2 {
+	padding: 4px 0px 0px 0px;
+	width: 960px;
+	margin-bottom: 8px;
+}
+
+#addcountermeasure2 table {
+	
+}
+
+#addcountermeasure2 tr td {
+	line-height: 16px;
+}
+
+#addcountermeasure2 .countermeasure-header {
+	background-color: #666666;
+	font-color: #FFFFFF;
+	color: #ffffff;
+	padding-left: 15px;
+}
+
+#addcountermeasure2 .countermeasure-desc {
+	padding-left: 4px;
+	background-color: #D0D0D0;
+	Font-Color: #414141;
+	Padding-Left: 8px;
+}
+
+#addcountermeasure2 .countermeasure-data {
+	padding-left: 4px;
+	background-color: #FAF8F8;
+	Font-Color: #414141;
+	Padding-Left: 8px;
+}
+
+#addcountermeasure2 .countermeasure-data-ng {
+	padding-left: 4px;
+	back-ground-color: green;
+	color: red;
+	font-Size: 12px;
+	font-Weight: Bold;
+}
+
+/* Inputs/Labels Style */
+.tableinput {
+	width: 50%;
+}
+
+.con_source_description {
+	height: 50%;
+}
+
+#addcountermeasure2 tr td .description_txt_input {
+	height: 60px;
+}
+
+#save-counturmeasure2 {
+	border: none;
+	font-family: "Verdana";
+	font-size: 11px;
+	padding: 4px 8px;
+	float: left;
+	background-color: #c51733 !important;
+	color: #ffffff;
+	margin: 30px 5px;
+}
+
+#evaluate-container2 .option2 {
+	float: left;
+	margin: 10px 8px 4px 0px;
+}
+
+.messageng {
+	color: #c51733;
+	font-Size: 12px;
+	font-Weight: Bold;
+}
+
+/***** TAB 3 Root cause Countermeasure */
+#evaluate-container3 {
+	padding: 0px 0px 0px 0px;
+	width: 960px;
+	margin-bottom: 10px;
+}
+
+#addcountermeasure3 table {
+	
+}
+
+#addcountermeasure3 tr td {
+	line-height: 16px;
+}
+
+#addcountermeasure3 .countermeasure-header {
+	background-color: #666666;
+	font-color: #FFFFFF;
+	color: #ffffff;
+	padding-left: 15px;
+}
+
+#addcountermeasure3 .countermeasure-desc {
+	padding-left: 4px;
+	background-color: #D0D0D0;
+	Font-Color: #414141;
+	Padding-Left: 8px;
+}
+
+#addcountermeasure3 .countermeasure-data {
+	padding-left: 4px;
+	background-color: #FAF8F8;
+	Font-Color: #414141;
+	Padding-Left: 8px;
+}
+
+#addcountermeasure3 .countermeasure-data-ng {
+	padding-left: 4px;
+	back-ground-color: green;
+	color: red;
+	font-Size: 12px;
+	font-Weight: Bold;
+}
+
+/* Inputs/Labels Style */
+.tableinput {
+	width: 50%;
+}
+
+#addcountermeasure3 tr td .description_txt_input {
+	height: 60px;
+}
+
+#save-rootcause {
+	border: none;
+	font-family: "Verdana";
+	font-size: 11px;
+	padding: 4px 8px;
+	float: left;
+	background-color: #c51733 !important;
+	color: #ffffff;
+	margin: 15px 5px;
+}
+
+#evaluate-container3 .option3 {
+		float: left;
+}
+
+#evaluate-container3 .optionbutton {
+	float: left;
+	width:100%; 
+	margin:0 auto;
+}
+
+
+
+
+/*Add an Audit */
+
+#audit-container {
+	padding: 4px 0px 0px 0px;
+	width: 960px;
+	margin-bottom: 8px;
+}
+
+
+#audittable table {
+	
+}
+
+#audittable tr td {
+	line-height: 16px;
+}
+
+#audittable .audit-header {
+	background-color: #666666;
+	font-color: #FFFFFF;
+	color: #ffffff;
+	padding-left: 15px;
+}
+
+#audittable .audit-desc {
+
+	background-color: #D0D0D0;
+	Font-Color: #414141;
+	Padding-Left: 12px;
+	height: 8px;
+}
+
+#audittable .audit-data {
+	padding-left: 4px;
+	background-color: #FAF8F8;
+	Font-Color: #414141;
+	Padding-Left: 8px;
+}
+
+#audittable .audit-data-ok {
+	padding-left: 4px;
+	back-ground-color: green;
+	color: #44973b;
+	font-Size: 12px;
+	font-Weight: Bold;
+}
+
+.messageok {
+	color: #44973b;
+	font-Size: 12px;
+	font-Weight: Bold;
+}
+
+/* Inputs/Labels Style */
+.tableinput {
+	width: 50%;
+}
+
+.con_source_description {
+	height: 50%;
+}
+
+#audittable tr td .description_txt_input {
+	height: 40px;
+	
+}
+
+
+/* Add audit layouts*/
+#audit-header {
+	padding: 4px 0px 0px 5px;
+	width: 960px;
+	margin-bottom: 8px;
+}
+
+.hide,.show {
+
+	vertical-align: bottom;
+	border: none;
+	float: left;
+}
+
+#audit-header .nextcolumns {
+	float: left;
+	width: 314px;
+	display: block;
+}
+
+#audit-header .option1 {
+	float: left;
+	margin: 8px 8px 4px 8px;
+}
+
+#audit-header .option2 {
+	float: right;
+	margin: 16px 8px 5px 8px;
+}
+#audit-header .option3 {
+	margin: 30px 10px 10px 0px;
+}
+
+#audit-detail
+{
+	padding: 10px 0px 0px 0px;
+	width: 960px;
+	margin-bottom: 8px;
+}
+
+.hide,.show {
+
+	vertical-align: bottom;
+	border: none;
+	float: left;
+}
+
+#audit-detail .nextcolumns {
+	float: left;
+	width: 314px;
+	display: block;
+}
+
+#audit-detail .option3 {
+	float: left;
+	margin: 10px 8px 4px 8px;
+}
+#audit-detail .option4 {
+	float: left;
+	margin: 0px 8px 0px 8px;
+}
+
+#audit-detail .option5 {
+	float: left;
+	margin: 0px 8px 0px 8px;
+}
+
+#audit-detail .option6 {
+	float: left;
+	margin: 0px 8px 0px 8px;
+}
+
+#audit-detail .option7 {
+	width: 100%;
+	float: left;
+	margin: 40px 8px 0px 8px;
+}
+
+}
+#search_audit {
+	border: none;
+	font-family: "Verdana";
+	font-size: 11px;
+	padding: 4px 8px;
+	float: left;
+	background-color: #c51733 !important;
+	color: #ffffff;
+	margin: 15px 5px;
+}
+/*  the Audit details*/
+#audit-container {
+	padding: 4px 0px 0px 0px;
+	width: 960px;
+	margin-bottom: 8px;
+}
+
+#audit table {
+	
+}
+
+#audit tr td {
+	line-height: 16px;
+	padding-left: 12px;
+}
+
+#audit .audit-header {
+	background-color: #666666;
+	font-color: #FFFFFF;
+	color: #ffffff;
+	padding-left: 15px;
+}
+
+#audit .audit-desc {
+	padding-left: 4px;
+	background-color: #D0D0D0;
+	Font-Color: #414141;
+	Padding-Left: 8px;
+}
+
+#audit .audit-data {
+	padding-left: 4px;
+	background-color: #FAF8F8;
+	Font-Color: #414141;
+	Padding-Left: 8px;
+}
+
+#audit .audit-data-ok {
+	padding-left: 4px;
+	back-ground-color: green;
+	color: #44973b;
+	font-Size: 12px;
+	font-Weight: Bold;
+}
+#audit tr td .description_txt_input {
+	height: 60px;
+}
+
+
+/*add audit secon table*/
+
+#addaudit table {
+	
+}
+
+#addaudit tr td {
+	line-height: 16px;
+	padding-left: 12px;
+}
+
+#addaudit .audit-header {
+	background-color: #666666;
+	font-color: #FFFFFF;
+	color: #ffffff;
+	padding-left: 15px;
+}
+
+#addaudit .audit-desc {
+	padding-left: 4px;
+	background-color: #D0D0D0;
+	Font-Color: #414141;
+	Padding-Left: 8px;
+}
+
+#addaudit .audit-data {
+	padding-left: 4px;
+	background-color: #FAF8F8;
+	Font-Color: #414141;
+	Padding-Left: 8px;
+}
+
+#addaudit .audit-data-ok {
+	padding-left: 4px;
+	back-ground-color: green;
+	color: #44973b;
+	font-Size: 12px;
+	font-Weight: Bold;
+}
+#addaudit tr td .description_txt_input {
+	height: 60px;
+}
+
+/***View CRCR Layouts **/
+
+
+#viewcrcr table {
+	
+}
+
+#viewcrcr tr td {
+	line-height: 16px;
+}
+
+#viewcrcr .countermeasure-header {
+	background-color: #666666;
+	font-color: #FFFFFF;
+	color: #ffffff;
+	padding-left: 15px;
+}
+
+#viewcrcr .countermeasure-desc {
+	padding-left: 4px;
+	background-color: #D0D0D0;
+	Font-Color: #414141;
+	Padding-Left: 8px;
+}
+
+#viewcrcr .countermeasure-data {
+	padding-left: 4px;
+	background-color: #FAF8F8;
+	Font-Color: #414141;
+	Padding-Left: 8px;
+}
+
+#viewcrcr .countermeasure-data-ok {
+	padding-left: 4px;
+	back-ground-color: green;
+	color: #44973b;
+	font-Size: 12px;
+	font-Weight: Bold;
+}
+#viewcrcr .countermeasure-data-amber {
+	padding-left: 4px;
+	color: #FF8C00  ;
+	font-Size: 12px;
+	font-Weight: Bold;
+}
+
+#viewcrcr tr td .description_txt_input {
+	height: 60px;
+}
+
+#evaluate-container .option1 {
+	float: left;
+	margin: 10px 8px 4px 0px;
+}
+
+#viewattach {
+	border: none;
+	font-family: "Verdana";
+	font-size: 11px;
+	padding: 4px 8px;
+	float: left;
+	background-color: #c51733 !important;
+	color: #ffffff;
+	margin: 30px 5px;
+}
+
+#viewattach {
+	border: none;
+	font-family: "Verdana";
+	font-size: 11px;
+	padding: 4px 8px;
+	float: left;
+	background-color: #c51733 !important;
+	color: #ffffff;
+	margin: 30px 5px;
+}
+
+#aboutftf {
+
+	padding: 4px 8px;
+	float: left;
+}
+
+#logo {
+	margin-right: 6em;
+	float: right;
+	
+}
+
+
+
+#for whale  start-----------------
+
+#evaluate-container2 {
+	padding: 4px 0px 0px 0px;
+	width: 960px;
+	margin-bottom: 8px;
+}
+
+#addcountermeasure2_ table {
+	
+}
+
+#addcountermeasure2_ tr td {
+	line-height: 16px;
+}
+
+#addcountermeasure2_ .countermeasure-header1 {
+	background-color: #666666;
+	font-color: #FFFFFF;
+	color: #ffffff;
+	padding-left: 2px;
+}
+
+#addcountermeasure2_ .countermeasure-desc {
+	padding-left: 2px; 
+	background-color: #D0D0D0;
+	Font-Color: #414141;
+	 Padding-Left: 2px; 
+}
+
+#addcountermeasure2_ .countermeasure-data {
+	 padding-left: 2px; 
+	background-color: #FAF8F8;
+	Font-Color: #414141;
+	 Padding-Left: 2px; 
+}
+
+#addcountermeasure2_ .countermeasure-data-ng {
+	 padding-left: 2px; 
+	back-ground-color: green;
+	color: red;
+	font-Size: 12px;
+	font-Weight: Bold;
+}
+
+/* Inputs/Labels Style 
+.tableinput {
+	width: 40%;
+}
+
+.con_source_description {
+	height: 50%;
+}
+
+#addcountermeasure2_ tr td .description_txt_input {
+	height: 60px;
+}
+
+#save-counturmeasure2_ {
+	border: none;
+	font-family: "Verdana";
+	font-size: 11px;
+	padding: 4px 8px;
+	float: left;
+	background-color: #c51733 !important;
+	color: #ffffff;
+	margin: 30px 5px;
+}
+
+#evaluate-container2 .option2 {
+	float: left;
+	margin: 10px 8px 4px 0px;
+}
+
+.messageng {
+	color: #c51733;
+	font-Size: 12px;
+	font-Weight: Bold;
+}
+
+#for whale  end-----------*/
+
+
+/* Inputs/Labels Style */
+.tableinput {
+	width: 50%;
+}
+
+.con_source_description {
+	height: 50%;
+}
+
+#addcountermeasure2_ tr td .description_txt_input {
+	height: 60px;
+}

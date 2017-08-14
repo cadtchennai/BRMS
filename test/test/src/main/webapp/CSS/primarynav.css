@@ -1,0 +1,182 @@
+@charset "ISO-8859-1";
+
+#menu {
+	display: inline-block;
+	list-style: none;
+	width: 960px;
+	margin: 0;
+	height: 22px;
+	padding: 4px 0px 4px 0px;
+	margin-bottom: 8px;
+	/* Background color and gradients */
+	background: #000000;
+}
+
+#dealerselect {
+	display: inline-block;
+	float: right;
+	width: 201px;
+	padding: 1px 0px 0px 4px;
+}
+
+.select-dealer {
+	font-family: "Verdana";
+	font-size: 11px;
+}
+
+#menu li {
+	float: left;
+	display: block;
+	text-align: center;
+	position: relative;
+	padding: 4px 8px 4px 8px;
+	border: none;
+}
+
+#menu li:hover {
+	border: 1px solid #777777;
+	/* Background colour and gradients */
+	background: #F4F4F4;
+}
+
+#menu li a {
+	font-family: "Verdana";
+	font-size: 12px;
+	color: #ebebeb;
+	display: block;
+	outline: 0;
+	text-decoration: none;
+}
+
+#menu li:hover a {
+	color: #c51733;
+}
+
+.dropdown_1col,
+.dropdown_2col1,
+.dropdown_2col {
+	margin: 4px auto;
+	float: left;
+	position: absolute;
+	left: -999em; /* Hides the drop down */
+	text-align: left;
+	padding: 8px 5px 10px 5px;
+	border: 1px solid #999999;
+	border-top: none;
+	z-index: 1010;
+	/* Gradient background */
+	background: #F4F4F4;
+}
+
+.dropdown_1col {
+	width: 245px;
+}
+
+.dropdown_2col {
+	width: 440px;
+}
+
+.dropdown_2col1 {
+	width: 400px;
+}
+
+#menu li:hover .dropdown_1col,
+#menu li:hover .dropdown_2col,
+#menu li:hover .dropdown_2col1
+	{
+	left: -1px;
+	top: auto;
+}
+
+.col_1,
+.col_2,
+.col_3,
+.col_header_1col,
+.col_header_2col,
+.col_header_2col1
+	{
+	display: inline-block;
+	float: left;
+	position: relative;
+	margin-left: 8px;
+	margin-top: 8px;
+	margin-right: 8px;
+}
+
+.col_1 {
+	width: auto;
+}
+
+.col_2 {
+	width: auto;
+	border-right: 1px solid #999999;
+	padding-right: 12px;
+}
+
+.col_3 {
+	width: 410px;
+}
+
+.col_header_1col {
+	width: 230px;
+}
+
+.col_header_2col {
+	width: 420px;
+}
+
+.col_header_2col1 {
+	width: 290px;
+}
+
+#menu h5 {
+	font-size: 12px;
+	margin: 4px 0 4px 0;
+	padding-bottom: 4px;
+	color: #414141;
+	border-bottom: 1px solid #999999;
+}
+
+#menu li:hover div a {
+	font-size: 11px;
+	color: #414141;
+	line-height: 24px;
+}
+
+#menu li:hover ul li a:hover {
+	color: #c51733;
+	margin: 0;
+	padding: 0;
+}
+
+.strong {
+	font-weight: bold;
+}
+
+.italic {
+	font-style: italic;
+}
+
+#menu li ul {
+	list-style: none;
+	padding: 0;
+	margin: 0 0 8px 0;
+}
+
+#menu li ul li {
+	font-size: 11px;
+	line-height: 20px;
+	position: relative;
+	padding: 0px 0px 0px 0px;
+	margin: 0;
+	float: none;
+	text-align: left;
+	width: auto;
+}
+
+#menu li ul li:hover {
+	background: none;
+	border: none;
+	padding: 0;
+	margin: 0;
+}

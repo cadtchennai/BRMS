@@ -1,0 +1,727 @@
+@charset "ISO-8859-1";
+
+body, input {
+	font-family: Verdana,sans-serif;
+	font-size: 11px;
+
+}
+
+/* Application Titles 
+***************************************/
+h1 {
+	font-size: 18px;
+}
+
+h2 {
+	font-size: 16px;
+}
+
+h3 {
+	font-size: 12px;
+}
+
+h4 {
+	font-size: 12px;
+	font-weight: 500;
+}
+
+.row {
+	clear: both;
+}
+
+.col {
+	float: left;
+}
+
+
+/* Page Containers 
+***************************************/
+
+#pagecontainer {
+	width: 100%;
+	height: auto;
+	margin-top: -8px;
+}
+#pagecontainer1 {
+	width: 100%;
+	height: auto;
+	margin-top: -8px;
+}
+.containerwrapper {
+	width: 960px;
+	height: auto;
+	margin: 0 auto;
+}
+.containerwrapper1 {
+	width: 960px;
+	height: auto;
+	margin: 0 auto;
+}
+
+/* Top level header nav (login stuff etc) 
+*****************************************/
+.loginMenuContainer {
+	display:inline-block;
+	float: right;
+}
+
+.loginMenuContainer ul {
+	line-height: 18px;
+	list-style-type:none;
+	margin:0;
+	padding:0;
+}
+
+.loginMenuContainer li {
+	display:inline;
+}
+
+.loginMenuContainer li a:link, .loginMenuContainer li a:visited {
+	text-decoration: none;
+}
+
+/* Logo and page titles
+****************************************/
+.headerContainer {
+	display: inline-block;
+    width: 100%;
+}
+
+.titleContainer {
+	display: inline-block;
+    float: left;
+    margin-left: 5px;
+    position: relative;
+}
+
+/* Help icon positioning
+******************************/
+.help-icon {
+	float: right;
+}
+
+/* Hide an element
+*************************/
+.hidden{
+  	display: none;
+}
+
+/* Buttons 
+***************************************/
+input[type=button] {
+	font-family: Verdana;
+	font-size: 11px;
+	padding: 4px 8px;
+	margin: 5px;
+	float: right;
+}
+
+input[type=button]:hover {
+	cursor: pointer;
+}
+
+input[type=submit] {
+	font-family: Verdana;
+	font-size: 12px;
+	padding: 4px 8px;
+	float: right;
+	margin: 5px;
+}
+input[type=reset] {
+	font-family: Verdana;
+	font-size: 12px;
+	padding: 4px 8px;
+	float: right;
+	margin: 5px;
+}
+input[type=submit]:hover {
+	cursor: pointer;
+}
+input[type=reset]:hover {
+	cursor: pointer;
+}
+/*Remove button padding in FF*/
+input::-moz-focus-inner  { 
+    border: 0;
+    padding: 0;
+}
+
+label {
+	width: auto;
+	padding: 2px 8px 0px 0px;
+	float: left;
+	text-align: left;
+}
+
+.linkAsButton {
+    float: right;
+    font-size:12px;
+    margin: 5px;
+    padding: 4px 8px 4px 8px;
+    cursor: pointer;
+}
+.linkAsButton.disabledButton {
+	display: none;
+}
+
+.linkAsButtonRed {
+    float: right;
+    font-size:12px;
+    margin: 5px;
+    padding: 4px 8px 4px 8px;
+    cursor: pointer;
+}
+.linkAsButtonRed.disabledButton {
+	display: none;
+}
+
+.linkAsButtonGray {
+    float: right;
+    font-size:12px;
+    margin: 5px;
+    padding: 4px 8px 4px 8px;
+    cursor: pointer;
+}
+.linkAsButtonGray.disabledButton {
+	display: none;
+}
+
+
+/* Breadcrumb styles
+***********************/
+.home {
+	float: left;
+	border: none;
+	line-height: 2.5em;
+	margin-right: 8px;
+}
+.bcrumbContainer {
+	height: 2.3em;
+}
+
+.bcrumbContainer ul {
+	line-height: 2.3em;
+	list-style-type:none;
+	margin:0;
+	padding:0;
+}
+
+.bcrumbContainer li {
+	display:inline;
+}
+
+.bcrumbContainer li a.page {
+	font-weight: 800;
+}
+
+.bcrumbContainer li a:link, .bcrumbContainer li a:visited {
+	text-decoration: none;
+}
+
+
+
+/* CRUD section styles 
+***************************/
+.crudWrapper {
+	margin: auto;
+    width: 100%;
+}
+.crudSectionHeader {
+    font-size: 12px;
+    /*font-weight: bold;*/
+    padding: 6px 6px 6px 8px;
+    position: relative;
+}
+
+
+
+/* Error, Success  and Info text message */
+/*******************************/
+.globalErrorText, .globalSuccessText, .globalInfoText{
+	font-size: 12px;
+	font-weight: bold;
+	padding-left: 20px;
+	display: inline-block;
+	height: 17px;
+}
+
+
+
+/* Basic form layout */
+/*********************/
+.basicForm {
+	margin: 0 auto;
+	padding: 2px;
+	background-color: #F4F4F4;
+}
+
+.basicForm .row {
+	width: 100%;
+	height: 25px;
+	display: inline-block;
+}
+
+.basicForm .row-with-textbox {
+	height: 74px; height: 60px\9;
+}
+
+.basicForm .sectionHeader {
+	display: inline-block;
+	margin: 0 0 0 8px;
+	padding: 2px 0 2px 8px;
+	width: 503px;
+	/*for ie7*/
+    *width:505px;
+    /*for ie8*/
+    width:505px\9;
+    
+}
+
+.basicForm .shortSectionHeader {
+	display: inline-block;
+	margin: 0 0 0 15px;
+	padding: 2px 0 2px 5px;
+    width: 245px;
+}
+
+.basicForm .errorMsg {
+	line-height: 20px;
+    padding: 0 0 0 6px;
+}
+
+.basicForm label {
+	/*font-weight: bold;*/
+    display: block;
+    margin: 0 5px 0 8px;
+    padding: 2px 8px 0 8px;
+    width: 220px;
+}
+
+.basicForm label.left-alignment-correction {
+    margin-left: 0px !important;
+}
+
+.basicForm label.radio-label {
+	width: 10px;
+}
+
+.basicForm label.checkbox-label {
+	width: 60px;
+}
+
+.basicForm label.loginLabel {
+	padding: 1px 8px 0px 10px;
+	text-align: right;
+    width: 130px;
+}
+
+.basicForm input {
+	float: left;
+	width: 268px;
+}
+
+.basicForm textarea {
+	overflow: auto;
+	resize: none;
+    float: left;
+    width: 268px;
+}
+
+.basicForm input.ui-autocomplete-input {
+	float: left;
+	width: 250px;
+	
+	
+}
+
+.basicForm input.loginField {
+	width: 142px;
+}
+
+.basicForm input[type=submit] {
+	padding: 4px 8px;
+	width: auto;
+	height: auto;
+	font-size: 12px;
+	float:right;
+}
+.basicForm input[type=reset] {
+	padding: 4px 8px;
+	width: auto;
+	height: auto;
+	font-size: 12px;
+	float:right;
+}
+.basicForm input[type=button] {
+	padding: 4px 8px;
+	width: auto;
+	font-size: 12px;
+	float:right;
+}
+.basicForm input[type=reset] {
+	padding: 4px 8px;
+	width: auto;
+	font-size: 12px;
+	float:right;
+}
+
+.basicForm input.radioField {
+	width: 10px;
+}
+
+.basicForm .radioContainer {
+	margin-left:8px
+}
+
+
+.basicForm .radioContainer input[type=radio] {
+	width: auto;	
+		
+}
+
+.basicForm input[type=checkbox] {
+	margin-left:0px ;
+	width: auto;			
+}
+
+.basicForm .radioContainer label {
+	background-color: inherit;
+	margin-left:0px;
+	width:auto;
+}
+
+
+.basicForm .spacer {
+	clear: both;
+	height: 5px;
+}
+
+.basicForm .alignMsgWithInputs {
+	text-align: left;
+	padding: 5px 0 0 15px;
+	*height:12px;
+	min-height: 12px;
+}
+
+.basicForm input.datePicker, input.date {
+	width:75px;	
+}
+
+.basicForm input.short {
+	width:43px;	
+}
+
+
+
+#contextMenuDialog .menuItemDisabled {
+	cursor:default;
+}
+
+.autocomplete-all-button {
+    background-image: url("../IMAGES/jqueryui/ui-icons_888888_256x240.png");
+    background-position: -64px -15px;
+    background-repeat: no-repeat;
+    cursor: pointer;
+   	display: inline-block;
+    height: 16px;
+    width: 18px;
+    border-top: 1px solid #D0D0D0;
+    border-right: 1px solid #D0D0D0;
+    border-bottom: 1px solid #D0D0D0;
+}
+.validsearch {
+    background-image: url("../IMAGES/search-icon.png");
+    background-position: -64px -15px;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    display: inline-block;
+    height: 16px;
+    width: 18px;
+    border-top: 1px solid #D0D0D0;
+    border-right: 1px solid #D0D0D0;
+    border-bottom: 1px solid #D0D0D0;
+}
+.autocomplete-all-button.disabled {
+	cursor:default;
+}
+
+div.titleContainer h1,h2 {
+	margin:0
+}
+
+div.datatablesResultsTitle{
+font-weight: bold ;
+font-size:12px;
+padding-left: 8px;
+margin:0px 0 2px 0;
+position: relative;
+top: 20px;
+}
+
+div.datatablesResultsTitleExport{
+font-size:12px;
+padding-left: 8px;
+margin:0px 0 2px 0;
+position: relative;
+top: 20px;
+}
+
+div.datatablesResultsTitleWithoutSearch{
+font-weight: bold ;
+font-size:12px;
+padding-left: 8px;
+}
+/*
+ * Notification styles
+ */
+div.system-notification {
+	/*width: 100%;*/
+	padding: 2em;
+	background-color: #F4F4F4;
+}
+
+/* 
+ * Tool tip styling 
+ */
+.tooltip-hint {
+	display: inline-block;
+	height: 17px;
+	width: 17px;
+	margin-left: 3px;
+	background-image: url("../images/help.png");
+	background-repeat: no-repeat;
+}
+
+.tooltip-hint-in-header {
+	background-image: url("../images/help-header.png") !important;
+	position: absolute;
+	right: 8px;
+	top: 4px;
+	
+}
+
+
+
+.tooltip-hint-in-column {
+	background-image: url("../images/help-header.png") !important;
+	position: absolute;
+	right: 307px;
+	top: 29px;	
+}
+
+.tooltip-hint-in-2nd_column{
+	background-image: url("../images/help-header.png") !important;
+	position: absolute;	
+	right: 8px;
+	top: 29px;	
+}
+
+/* Custom Dropdown Box
+***************************/
+span.customStyleSelectBox {
+	font-size:11px; 
+	background-color: #ffffff; 
+	color:#666666; 
+	padding: 3px 0 3px 7px; 
+	border:1px solid #d0d0d0; 
+	line-height: 11px; 
+}
+span.customStyleSelectBox.changed {
+	background-color: #ffffff;
+}
+.customStyleSelectBoxInner {
+	background-image:url('../images/sort_both.png');
+	background-repeat:no-repeat; 
+	background-position:center right;
+}
+
+/* dsm-panel styling. */
+.dsm-panel {
+	font-size:11px; 
+	background-color: #F4F4F4; 
+	color:#666666; 
+	padding: 5px; 
+	margin: 10px;
+	border:1px solid #d0d0d0; 
+	line-height: 11px; 
+}
+
+.dsm-panel div.heading2 {
+	font-size: 14px;
+	font-weight: bold;
+	color:#C51733;
+	margin: 0px;
+	padding: 5px 5px 15px 5px;
+}
+
+.dsm-panel div.heading3 {
+	font-size: 12px;
+	font-weight: bold;
+	color:#C51733;
+	margin: 0px;
+	padding: 5px 5px 10px 15px;
+}
+
+.dsm-panel-results div.title_col {
+	height: 12px;
+	padding: 3px;
+	float: left;
+}
+
+.dsm-panel-results div.result_col {
+	color: #414141;
+	height: 12px;
+	width: 10%;
+	text-align: left;
+	float: left;
+}
+
+.dsm-panel-results div.lvl1 {
+	width: 340px;
+	margin-left: 30px
+}
+.dsm-panel-results div.lvl2 {
+	width: 320px;
+	margin-left: 50px
+}
+
+/* End of dsm-panel styling. */
+
+/* Homepage Styles */
+
+a.refreshButton:link, a.refreshButton:visited  {
+	display: block;
+	width: 17px;
+	height: 15px;
+	background: url('../images/refresh.png')
+}
+
+a.refreshButton:hover {
+	display: block;
+	width: 17px;
+	height: 15px;
+	background: url('../images/refresh.png')
+}
+
+a.refreshButtonActive  {
+	display: block;
+	width: 17px;
+	height: 15px;
+	background: url('../images/ajax-loader.gif')
+}
+
+a.refreshButtonDisabled  {
+	display: block;
+	width: 17px;
+	height: 15px;
+	background: url('../images/refresh-disabled.png')
+}
+
+a.configureButton {
+	background-image: url("../images/settings.png"); 
+	background-repeat: no-repeat ;
+	background-color:transparent;
+	height: 20px;
+	width:	20px;
+	border:none;
+	display: block;
+}
+
+a.configureButton:hover {
+	background-image: url("../images/settings_lighter.png");
+}
+
+div.homepage-container div.basicForm form#searchCriteriaForm div.row label {
+    width: 170px;
+}
+
+/* End of Homepage Styles */
+
+/* Datatable column filtering */
+td.datatable_column_search input {
+	background-image: url("../images/search-icon.png"); 
+ 	background-repeat:no-repeat; 
+ 	background-position: right;
+ 	background-size:10px 10px;
+ 	width:100%;
+	height:14px;	
+ 	font-size: 11px;		
+}
+
+td.datatable_column_search {
+	padding:3px 2px !important;
+}
+
+/* End of Datatable column filtering */
+
+/* Input field heights */
+
+.basicForm input {
+	height: 14px;
+}
+
+/*changes the label color to gray*/
+.labelColor{
+    width: 100px;
+    height: 25px;
+    text-align: left;
+    background-color: #ebebeb;
+    font-family: "Verdana";
+	font-size: 11px;
+    
+}
+
+.tableStyle{
+	width: 100%;
+}
+
+.tableColumnStyle{
+	width: 12.5%;
+	text-align: left;	
+}
+
+/* the Heights of the static data Section */
+.static-data-tabs {
+	height: 200px;
+	width: 400px;
+}
+
+/* The Tabs for Evaluate CRCR and View CRCR */
+#tabs {
+	font-family: "Verdana";
+	font-size: 11px;
+	color: #414141;	
+}
+
+#tabs ul {
+	background: #999999;
+}
+
+#tabs .ui-state-default {
+	background: #ebebeb;
+}
+
+#tabs .ui-state-active {
+	background: #ffffff;
+}
+
+#tabs .linkAsButton {
+    text-decoration: none;
+    background: #C51733;
+    color: #ffffff;
+}
+
+#tabs .linkAsButton:link, .linkAsButton:visited  {
+	color: #ffffff;
+}
+
+#tabs .linkAsButton:hover {
+    background: #666666;
+	color: #ffffff;
+}
+
+#tabs input[type=submit][disabled=disabled]
+ {
+	background: #999999;
+	color: #D0D0D0;
+}

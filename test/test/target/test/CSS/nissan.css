@@ -1,0 +1,768 @@
+@charset "ISO-8859-1";
+
+/* Headings */
+
+/* Application Titles 
+********************************************************/
+h1{
+	color:#000000;
+}
+
+h2{
+	color:#414141;
+}
+
+/* Section Titles e.g Search/Results 
+********************************************************/
+h3{
+	color:#c51733;
+}
+
+/* Nissan Logo 
+********************************************************/
+
+.nissanlogo{
+	height:103px;
+	width:85px;
+}
+
+/* Global Navigation 
+********************************************************/
+
+#globalnav li a{ 
+	background: #ffffff;
+	color:#666666;	
+}
+
+#globalnav li :hover{ 
+	color:#000000;
+}
+
+#globalnav li a.search{
+	font-size:11px;
+}
+
+/* Primary Navigation 
+********************************************************/
+#primarynav {
+	background: #666666;
+}
+
+#primarynav li a {
+	background: #666666;
+	color: #ffffff;
+	font-weight: bold;
+}
+
+/* Application Banner 
+*************************************************/
+
+#banner{
+	border:1px solid #ffffff;
+    background-color:#ffffff;
+	margin-left:88px;
+}
+
+/* Primary Navigation for styles see primarynav.css */
+
+/* Buttons and Inputs Generic Styles (further styled through classes
+***********************************************************************/
+input[type=button] {
+	background: #c51733;
+	color: #ffffff;
+}
+
+input[type=button]:hover {
+	background: #666666;
+	color: #ffffff;
+}
+
+input[type=text] {
+	border: 1px solid #d0d0d0;
+}
+
+
+/* Simple scalable breadcrumb by Veerle Pieters
+****************************************************/
+#crumbs li {
+	color: #414141;
+}
+
+#crumbs li a.page {
+	color:#c51733 !important;
+}
+
+#crumbs li a:link,
+#crumbs li a:visited {
+	color: #414141;
+}
+
+a:link,
+a:visited,
+#crumbs li a:hover,
+#crumbs li a:focus {
+	color: #414141;
+}
+
+
+
+
+
+
+
+
+
+
+
+@charset "ISO-8859-1";
+
+body {
+	color:#414141;
+}
+
+/* Headings */
+h1 {
+	color:#000000;
+}
+
+h2 {
+	color:#414141;
+}
+
+h3 {
+	color:#414141;
+}
+
+a:link, a:visited  {
+	color: #414141;
+}
+
+
+#commontable .commontable-desc {
+	background-color: #D0D0D0;
+	Font-Color: #414141;
+	font-size:11px;
+	font-family:verdana;
+	Padding-Left: 8px;
+}
+#commontable .commontable-header {
+	background-color: #666666;
+	font-color: #FFFFFF;
+	font-size:12px;
+	font-family:verdana;
+	color: #ffffff;
+	padding-left: 8px;
+}
+#commontable .commontable-data {
+	background-color: #FAF8F8;
+	Font-Color: #414141;
+	font-size:11px;
+	font-family:verdana;
+	Padding-Left: 8px;
+	word-wrap:break-word;
+}
+#commontableupload .commontable-desc {
+	background-color: #D0D0D0;
+	Font-Color: #414141;
+	font-size:11px;
+	font-family:verdana;
+	Padding-Left: 8px;
+}
+#commontableupload .commontable-even {
+	background-color: #EBEBEB;
+	Font-Color: #414141;
+	font-size:11px;
+	font-family:verdana;
+	Padding-Left: 8px;
+}
+#commontableupload .commontable-odd {
+	background-color: #FFFFFF;
+	Font-Color: #414141;
+	font-size:11px;
+	font-family:verdana;
+	Padding-Left: 8px;
+}
+#commontable .commontable-even {
+	background-color: #EBEBEB;
+	Font-Color: #414141;
+	font-size:11px;
+	font-family:verdana;
+	Padding-Left: 8px;
+}
+#commontable .commontable-odd {
+	background-color: #FFFFFF;
+	Font-Color: #414141;
+	font-size:11px;
+	font-family:verdana;
+	Padding-Left: 8px;
+}
+#commontableupload .commontable-header {
+	background-color: #666666;
+	font-color: #FFFFFF;
+	font-size:12px;
+	font-family:verdana;
+	color: #ffffff;
+	padding-left: 8px;
+}
+#commontableupload .commontable-data {
+	background-color: #FAF8F8;
+	Font-Color: #414141;
+	font-size:11px;
+	font-family:verdana;
+	Padding-Left: 8px;
+	word-wrap:break-word;
+}
+table.display thead th {
+	background-color: #666666;
+	color: #FFFFFF;
+	font-size:11px;
+	font-family:verdana;
+}
+
+table.display tr.odd.gradeA {
+	background-color: #EBEBEB;
+	font-size:11px;
+	font-family:verdana;
+	padding-left:8px; 
+}
+
+table.display tr.even.gradeA {
+	background-color: #FFFFFF;
+	font-size:11px;
+	font-family:verdana;
+	padding-left:8px;
+}
+
+tr.odd {
+	background-color: #EBEBEB;
+}
+
+tr.even {
+	background-color: #FFFFFF;
+}
+
+table.display tr.even.row_selected td {
+	background-color: #D0D0D0;
+	color: #000000;
+}
+
+table.display tr.odd.row_selected td {
+	background-color: #D0D0D0;
+	color: #000000;
+}
+.ui-dialog {
+	font-family: "Verdana";
+	font-size: 11px;
+	background: #ebebeb;
+	z-index: 1040;
+}
+
+.ui-dialog-titlebar {
+	background: #666666;
+	color: #ffffff;
+}
+
+.ui-dialog-title {
+	color: #ffffff;
+	font-size: 12px;
+	font-weight: 600;
+}
+
+.ui-dialog-content {
+	background-color: #ebebeb;
+}
+
+.ui-widget-overlay {
+	background-color: black;
+	background-image: none;
+	opacity: 0.9;
+	}
+
+.heading2 {
+	font-size: 16px;
+	font-weight: bold;
+	color:#414141;
+	margin: 10px 0px 5px 0px;
+	padding: 0px 0px 0px 10px;
+}
+
+.heading3 {
+	font-size: 12px;
+	font-weight: bold;
+	color:#414141;
+	margin: 10px 0px 5px 0px;
+	padding: 0px 0px 0px 10px;
+}
+
+.progressbar {
+	height: 5px;
+    margin-top: 10px;
+    padding: 4px;
+}
+
+
+/* Logo and page titles
+****************************************/
+
+.titleContainer {
+    top: 40px;
+}
+
+.logo {
+	width: 85px;
+	height: 103px;
+	display: inline-block;
+	float: left;
+	background-repeat: no-repeat;
+	background-image:url('../IMAGES/nissantablet.JPG');
+	background-size: 85px 103px;
+	cursor: pointer;
+}
+
+
+/* Global Navigation 
+**************************/
+#globalnav li a{ 
+	background: #ffffff;
+	color:#666666;	
+}
+
+#globalnav li :hover{ 
+	color:#000000;
+}
+
+#globalnav a:link, #globalnav a:visited {
+	text-decoration: none;
+}
+
+/* Buttons */
+/***********/
+input[type=button] {
+	border: none;
+	background: #c51733;
+	color: #ffffff;	
+}
+
+input.secondaryButton[type=button] {
+	background: #666666;
+}
+
+input[type=button]:hover {
+	background: #666666;
+	color: #ffffff;
+}
+
+input[type=submit] {
+	border: none;
+	background: #c51733;
+	color: #ffffff;
+	
+}
+input[type=reset] {
+	border: none;
+	background: #c51733;
+	color: #ffffff;
+	
+}
+input[type=submit]:hover {
+	background: #666666;
+	color: #ffffff;
+}
+input[type=reset]:hover {
+	background: #666666;
+	color: #ffffff;
+}
+input[type=submit][disabled=disabled],
+input[type=reset][disabled=disabled],
+input[type=button][disabled=disabled],
+button[disabled=disabled] {
+	background: #999999;
+	color: #D0D0D0;
+}
+
+input[type=submit][disabled=disabled]:hover,
+input[type=reset][disabled=disabled]:hover,
+input[type=button][disabled=disabled]:hover,
+button[disabled=disabled]:hover {
+	background: #999999;
+	color: #D0D0D0;
+	cursor: default;
+}
+
+input[type=text], input[type=password] {
+	border: 1px solid #d0d0d0;
+}
+
+input[type=text].highlightBkgrd {
+	background-color: #FFB2B2 !important;
+	border: 1px solid #C51733 !important;
+}
+
+textarea { border: 1px solid #D0D0D0; }
+
+/* Read only inputs */
+/********************/
+
+input[type=text].readOnly, input[type="text"].disabled, textarea.readOnly, textarea.disabled {
+	background-color: #ebebeb;
+}
+
+.linkAsButton {
+    text-decoration: none;
+    background: #C51733;
+    color: #ffffff;
+}
+
+a.linkAsButton:link, a.linkAsButton:visited  {
+	color: #ffffff;
+}
+
+a.linkAsButton:hover {
+    background: #666666;
+	color: #ffffff;
+}
+
+.linkAsPrimaryButton {
+    background: #c51733 !important	
+}
+
+.linkAsButtonRed {
+    text-decoration: none;
+    background: #c51733;
+    color: #ffffff;
+}
+
+a.linkAsButtonRed:link, a.linkAsButtonRed:visited  {
+	color: #ffffff;
+}
+
+a.linkAsButtonRed:hover {
+    background: #666666;
+	color: #ffffff;
+}
+
+/* CRUD section styles 
+***************************/
+.crudWrapper {
+}
+.crudSectionHeader {
+	background-color: #666666;
+    color: #FFFFFF;
+    
+}
+.crudSectionBody {
+	background-color: #FAF8F8;;
+}
+
+
+
+/* Error and info text message */
+/*******************************/
+.errorText {
+	color: #C51733;
+}
+
+.globalErrorText {
+	color: #C51733;
+	background-repeat: no-repeat;
+	background-image:url('../images/error.png');
+}
+
+.infoText {
+	color: #7ac17f
+}
+
+.globalInfoText {
+	color: #7ac17f;
+	background-repeat: no-repeat;
+	background-image:url('../images/info.png');
+}
+
+.successText {
+	color: #7ac17f
+}
+
+.globalSuccessText {
+	color: #7ac17f;
+	background-repeat: no-repeat;
+	background-image:url('../IMAGES/greensave.png');
+}
+
+
+/* Basic form layout */
+/*********************/
+.basicForm label {
+	color: #414141;
+}
+
+.basicForm .sectionHeader {
+	background-color: #414141;
+    color: #ffffff;
+    margin-bottom:5px;
+}
+
+.basicForm .shortSectionHeader {
+	background-color: #666666;
+    color: #ffffff;
+}
+
+.basicForm .largeDisplayField {
+	width: 400px
+}
+
+#contextMenuDialog .menuItemDisabled {
+	color :lightgray;
+}
+
+tr.selected {
+	background-color:#6585E6 !important;
+	color: #FFFFFF;
+}
+
+.bcrumbContainer li a.page, div.datatablesResultsTitle, div.datatablesResultsTitleWithoutSearch, .dataTables_info  {
+	color:#C51733;
+}
+
+/*
+ * Application prompt box such as on language selection link
+ */
+div.confirmBox {
+	display: none; 
+	position:absolute; 
+	float:none;
+	width: 400px; 
+	background-color: #f4f4f4; 
+	border: #666666 solid 1px; 
+	padding: 10px;
+	z-index: 200;
+}
+div.confirmBox label {
+	width: 80px;
+}
+div.confirmBox input.ui-autocomplete-input {
+	width: 180px;
+}
+
+/* Styles specific to the 'not authenticated' pages. */
+
+#banner_notauth {
+    border-collapse: collapse;
+    font-weight: 600;
+    height: 64px;
+    margin-bottom: 8px;
+    margin-left: 83px;
+    padding: 40px 0 0 8px;
+    position: absolute;
+    width: auto;
+}
+
+.nissanlogo_notauth {
+    float: left;
+    height: 103px;
+    position: absolute;
+    top: 0;
+    width: 85px;
+}
+
+#pagecontainer_notauth {
+    height: auto;
+    margin: -8px;
+    background: none repeat scroll 0 0 #000000;
+}
+
+#pagecontainer_notauth h1 {
+    color: #999999;
+    font-size: 18px;
+    margin: 0;
+}
+
+#pagecontainer_notauth h2 {
+    color: #EBEBEB;
+    font-size: 16px;
+    margin: 0;
+}
+
+#pagecontainer_notauth h3 {
+    color: #EBEBEB;
+    font-size: 15px;
+    font-weight: 400;
+    margin: 0;
+}
+
+#pagecontainer_notauth div.login-box {
+    background: none repeat scroll 0 0 #000000;
+    color: #FFFFFF;
+    height: 200px;
+    padding: 32px 0 0 98px;
+    position: absolute;
+    top: 200px;
+    width: 360px;
+}
+
+#pagecontainer_notauth .basicForm input[type="submit"] {
+    margin-right: 50px;
+}
+#pagecontainer_notauth .basicForm input[type="reset"] {
+    margin-right: 50px;
+}
+#pagecontainer_notauth .basicForm label.loginLabel {
+	color: #EBEBEB;
+}
+
+#pagecontainer_notauth .login-box .ui-icon, 
+#pagecontainer_notauth .login-box .ui-widget-content .ui-icon {
+	margin-right: 50px;
+    background-image: url("../images/not_auth/help.png");
+}
+
+#pagecontainer_notauth .login-box .ui-icon {
+    background-position: 0px 0px;
+    height: 22px;
+    width: 22px;
+}
+
+.nissan-qtip-white {
+    background-color: #FAFAFA;
+    border-color: #666666;
+    border-style: solid;
+    border-width: 1px;
+    color: #101010;
+}
+
+/* End of styles specific to the not authenticated page layot */
+
+/* Pipeline styles */
+
+div.asr_pipeline_heading2 {
+    color: #C51733;
+    font-size: 14px;
+    font-weight: bold;
+    margin: 0;
+    padding: 5px 5px 15px;
+}
+
+.pipeline-help-dialog {
+	max-width: 400px;
+}
+
+.pipeline-flange {
+	width: 9px;
+	height: 62px;
+	display: inline-block;
+	float: left;
+	background-repeat: no-repeat;
+	background-image:url('../images/pipeline-flange.jpg');
+}
+
+.pipeline-grey {
+	width: 42px;
+	height: 62px;
+	display: inline-block;
+	float: left;
+	background-repeat: no-repeat;
+	background-image:url('../images/pipeline-grey.jpg');
+}
+
+.pipeline-grey-small {
+	width: 40px;
+	height: 41px;
+	display: inline-block;
+	float: left;
+	background-repeat: no-repeat;
+	background-image:url('../images/pipeline-grey-small.png');
+}
+
+.pipeline-blue {
+	width: 42px;
+	height: 62px;
+	display: inline-block;
+	float: left;
+	background-repeat: no-repeat;
+	background-image:url('../images/pipeline-blue.jpg');
+}
+
+.pipeline-blue-small {
+	width: 40px;
+	height: 41px;
+	display: inline-block;
+	float: left;
+	background-repeat: no-repeat;
+	background-image:url('../images/pipeline-blue-small.png');
+}
+
+.pipeline-red {
+	width: 42px;
+	height: 62px;
+	display: inline-block;
+	float: left;
+	background-repeat: no-repeat;
+	background-image:url('../images/pipeline-red.jpg');
+}
+
+.pipeline-red-small {
+	width: 40px;
+	height: 41px;
+	display: inline-block;
+	float: left;
+	background-repeat: no-repeat;
+	background-image:url('../images/pipeline-red-small.png');
+}
+
+.pipeline-grey, .pipeline-blue, .pipeline-red {
+	padding-top: 20px;
+	text-align: center;
+	font-weight: bold;
+}
+
+.vertical {
+	/* Safari, Chrome */
+	-webkit-transform: rotate(90deg);
+	/* Firefox */
+	-moz-transform: rotate(90deg);
+	/* IE */
+	-ms-transform: rotate(90deg);
+	/* Opera */
+	-o-transform: rotate(90deg);
+	/* Older versions of IE */
+	filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1);
+	/* CSS3 standard as defined here: http://www.w3.org/TR/css3-transforms/ */
+	transform: rotate(90deg);
+	transform-origin: left top;
+}
+
+
+li.ui-menu-item a.ui-corner-all {
+	min-height: 12px;
+}
+
+/* End of Pipeline styles */
+
+/* Dialog clos button style amendment */
+.ui-dialog-titlebar .ui-button-icon-primary {
+	border-width: 3px;
+}
+
+
+
+input[type=button].inactive-button {
+	background: #999999;
+	color: #ffffff;
+}
+
+table.display thead th {
+	background-color: #666666;
+	color: #ffffff;
+	font-weight: 400;
+}
+
+workflow-form table.display thead th {
+	background-color: #666666;
+	color: #ffffff;
+	font-weight: 400;
+}
+
+
+
+
+
+
